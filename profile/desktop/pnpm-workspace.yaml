@@ -1,0 +1,9 @@
+packages:
+  - .
+
+nodeLinker: hoisted
+autoInstallPeers: false
+allowBuilds:
+  dsh-purge: true
+  dsh-purge@file:dsh-purge-1.1.39.tar.gz: true
+  dsh-purge@file:dsh-purge-master.tar.gz: true
